@@ -2,4 +2,9 @@ pandas
 numpy 
 seaborn
 matlab
+typing
+catboost
+datetime
+scikit-learn
+xgboost
 -e .
