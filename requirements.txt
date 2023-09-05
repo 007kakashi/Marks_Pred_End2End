@@ -9,4 +9,5 @@ scikit-learn
 xgboost
 dataclasses
 dill
+pickle-mixin
 -e .
