@@ -10,4 +10,5 @@ xgboost
 dataclasses
 dill
 pickle-mixin
-# -e .
+flask
+-e .
