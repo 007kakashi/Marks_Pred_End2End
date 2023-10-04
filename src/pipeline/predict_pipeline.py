@@ -16,6 +16,11 @@ class PredictPipeline:
 
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
+
+            logging.info("features has been captured")
+            print(features)
+            logging.info(features)
+
             data_scaled=preprocessor.transform(features)
             preds=model.predict(data_scaled)
 
@@ -29,7 +34,7 @@ class PredictPipeline:
 class CustomData:
     def __init__( self,
                  gender: str,
-                 race_ethnicity: str,
+                 race_ethnicity,
                  parental_level_of_education,
                  lunch: str,
                  test_preparation_course: str,
