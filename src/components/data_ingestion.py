@@ -56,10 +56,10 @@ if __name__ == '__main__':
     obj=DataIngestion()
     train_data,test_data=obj.initiate_data_injegstion()
 
-    data_transformer=DataTransformation()
-    train_arr,test_arr,_=data_transformer.initiate_data_trasnformer(train_data,test_data)
+    # data_transformer=DataTransformation()
+    # train_arr,test_arr,_=data_transformer.initiate_data_trasnformer(train_data,test_data)
 
-    model_trainer=ModelTrainer()
-    print(model_trainer.initiate_model_trainer(train_arr,test_arr))
+    # model_trainer=ModelTrainer()
+    # print(model_trainer.initiate_model_trainer(train_arr,test_arr))
 
 
